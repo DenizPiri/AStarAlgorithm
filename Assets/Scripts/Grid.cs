@@ -98,4 +98,8 @@ public class Grid : MonoBehaviour {
 			}
 		}
 	}
+
+	public void ExitApp(){
+		Application.Quit ();
+	}
 }
